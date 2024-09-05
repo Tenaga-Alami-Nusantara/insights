@@ -18,7 +18,14 @@
   "integrations_section",
   "telegram_api_token",
   "query_section",
-  "fiscal_year_start"
+  "fiscal_year_start",
+  "style_tab",
+  "app_icon_section",
+  "app_logo_preview",
+  "app_logo",
+  "column_break_zfdu",
+  "favicon_preview",
+  "favicon"
  ],
  "fields": [
   {
@@ -93,12 +100,49 @@
    "fieldname": "fiscal_year_start",
    "fieldtype": "Date",
    "label": "Fiscal Year Start"
+  },
+  {
+   "fieldname": "style_tab",
+   "fieldtype": "Tab Break",
+   "label": "Style"
+  },
+  {
+   "fieldname": "favicon",
+   "fieldtype": "Attach Image",
+   "label": "Favicon"
+  },
+  {
+   "fieldname": "app_icon_section",
+   "fieldtype": "Section Break",
+   "label": "App Icon"
+  },
+  {
+   "fieldname": "app_logo_preview",
+   "fieldtype": "Image",
+   "label": "App Logo (Preview)",
+   "options": "app_logo"
+  },
+  {
+   "fieldname": "app_logo",
+   "fieldtype": "Attach Image",
+   "label": "App Logo"
+  },
+  {
+   "fieldname": "column_break_zfdu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "favicon_preview",
+   "fieldtype": "Image",
+   "label": "Favicon (Preview)",
+   "options": "favicon",
+   "width": "10rem"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-05-19 19:43:32.059934",
+ "modified": "2024-09-05 11:37:18.986224",
  "modified_by": "Administrator",
  "module": "Insights",
  "name": "Insights Settings",
